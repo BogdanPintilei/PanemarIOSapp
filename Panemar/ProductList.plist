@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ID</key>
+	<array>
+		<integer>1</integer>
+		<integer>2</integer>
+		<integer>3</integer>
+		<integer>4</integer>
+		<integer>5</integer>
+		<integer>6</integer>
+		<integer>7</integer>
+		<integer>8</integer>
+		<integer>9</integer>
+		<integer>10</integer>
+		<integer>11</integer>
+		<integer>12</integer>
+		<integer>13</integer>
+		<integer>14</integer>
+		<integer>15</integer>
+	</array>
+	<key>Name</key>
+	<array>
+		<string>Pâine albă</string>
+		<string>Franzelă albă</string>
+		<string>Pâine integrală</string>
+		<string>Pâine secară</string>
+		<string>Baghetă albă</string>
+		<string>Pâine măsline</string>
+		<string>Covrigi bavarezi</string>
+		<string>Pateu cu brânză</string>
+		<string>Ștrudel cu varză</string>
+		<string>Cuib cu scortișoară</string>
+		<string>Covrig polonez</string>
+		<string>Cheesecake</string>
+		<string>Tartă cu zmeură</string>
+		<string>Tartă cu caise</string>
+		<string>Prăjitură cu mere</string>
+	</array>
+	<key>Price</key>
+	<array>
+		<integer>3</integer>
+		<real>3.5</real>
+		<integer>3</integer>
+		<integer>4</integer>
+		<real>2.5</real>
+		<real>8.5</real>
+		<real>1.5</real>
+		<real>2.8</real>
+		<real>2.5</real>
+		<real>3.5</real>
+		<real>3.2</real>
+		<integer>6</integer>
+		<real>6.5</real>
+		<real>6.5</real>
+		<integer>5</integer>
+	</array>
+	<key>Image</key>
+	<array>
+		<string>https://panemar.ro/images-html/produse/painea-alba-panemar.jpg</string>
+		<string>https://panemar.ro/images-html/produse/franzela-alba-panemar.jpg</string>
+		<string>https://panemar.ro/images-html/produse/paine-integrala-panemar.jpg</string>
+		<string>https://panemar.ro/images-html/produse/painea-de-secara-panemar.jpg</string>
+		<string>https://panemar.ro/images-html/produse/bagheta-panemar.jpg</string>
+		<string>https://panemar.ro/images-html/produse/paine-cu-masline-panemar.jpg</string>
+		<string>https://panemar.ro/images-html/produse/covrigi-bavarezi-panemar.jpg</string>
+		<string>https://panemar.ro/images-html/produse/pateu-cu-branza-panemar.jpg</string>
+		<string>https://panemar.ro/images-html/produse/strudel-cu-varza-panemar.jpg</string>
+		<string>https://panemar.ro/images-html/produse/cuib-cu-scortisoara-panemar.jpg</string>
+		<string>https://panemar.ro/images-html/produse/covrig-polonez-panemar.jpg</string>
+		<string>https://panemar.ro/images-html/produse/cheesecake-panemar.jpg</string>
+		<string>https://panemar.ro/images-html/produse/tarta-cu-zmeura-panemar.jpg</string>
+		<string>https://panemar.ro/images-html/produse/tarta-cu-caise-panemar.jpg</string>
+		<string>https://panemar.ro/images-html/produse/prajitura-cu-mere-panemar.jpg</string>
+	</array>
+</dict>
+</plist>
