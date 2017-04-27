@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A2137E31EA9FEF7003D75B0 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2137E21EA9FEF7003D75B0 /* ProductDetailViewController.swift */; };
+		5A31E9CF1EB1D9B4008CA947 /* CartDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A31E9CE1EB1D9B4008CA947 /* CartDetailViewController.swift */; };
+		5A35CAD41EB09BBB00FA3E8A /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A35CAD31EB09BBB00FA3E8A /* CartTableViewCell.swift */; };
+		5A67B7B91EA7629200B89027 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A67B7B81EA7629200B89027 /* ProductTableViewCell.swift */; };
 		5AE547B21EA0CC410033F1D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE547B11EA0CC410033F1D4 /* AppDelegate.swift */; };
 		5AE547B71EA0CC410033F1D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE547B51EA0CC410033F1D4 /* Main.storyboard */; };
 		5AE547B91EA0CC410033F1D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE547B81EA0CC410033F1D4 /* Assets.xcassets */; };
@@ -14,10 +18,18 @@
 		5AE547CA1EA0CD150033F1D4 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE547C91EA0CD150033F1D4 /* Product.swift */; };
 		5AE547CC1EA0CD2C0033F1D4 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE547CB1EA0CD2C0033F1D4 /* Cart.swift */; };
 		5AE547CE1EA0CD430033F1D4 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE547CD1EA0CD430033F1D4 /* Order.swift */; };
-		5AE547D21EA0D0270033F1D4 /* ProductList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AE547D11EA0D0270033F1D4 /* ProductList.plist */; };
+		5AE547D41EA0EFAB0033F1D4 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE547D31EA0EFAB0033F1D4 /* ProductsViewController.swift */; };
+		5AE547D61EA0F03F0033F1D4 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE547D51EA0F03F0033F1D4 /* CartViewController.swift */; };
+		5AE547D81EA0F0870033F1D4 /* OrderHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE547D71EA0F0870033F1D4 /* OrderHistoryViewController.swift */; };
+		5AE547DA1EA0F10D0033F1D4 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE547D91EA0F10D0033F1D4 /* AboutViewController.swift */; };
+		5AE547DE1EA0FEAF0033F1D4 /* ProductsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AE547DD1EA0FEAF0033F1D4 /* ProductsList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A2137E21EA9FEF7003D75B0 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		5A31E9CE1EB1D9B4008CA947 /* CartDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartDetailViewController.swift; sourceTree = "<group>"; };
+		5A35CAD31EB09BBB00FA3E8A /* CartTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		5A67B7B81EA7629200B89027 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
 		5AE547AE1EA0CC410033F1D4 /* Panemar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Panemar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE547B11EA0CC410033F1D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AE547B61EA0CC410033F1D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -27,7 +39,11 @@
 		5AE547C91EA0CD150033F1D4 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		5AE547CB1EA0CD2C0033F1D4 /* Cart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
 		5AE547CD1EA0CD430033F1D4 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
-		5AE547D11EA0D0270033F1D4 /* ProductList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ProductList.plist; sourceTree = "<group>"; };
+		5AE547D31EA0EFAB0033F1D4 /* ProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		5AE547D51EA0F03F0033F1D4 /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		5AE547D71EA0F0870033F1D4 /* OrderHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderHistoryViewController.swift; sourceTree = "<group>"; };
+		5AE547D91EA0F10D0033F1D4 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		5AE547DD1EA0FEAF0033F1D4 /* ProductsList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ProductsList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +81,7 @@
 				5AE547C71EA0CCB40033F1D4 /* Controller */,
 				5AE547C81EA0CCC10033F1D4 /* Helpers */,
 				5AE547C31EA0CC690033F1D4 /* Supporting Files */,
-				5AE547D11EA0D0270033F1D4 /* ProductList.plist */,
+				5AE547DD1EA0FEAF0033F1D4 /* ProductsList.plist */,
 			);
 			path = Panemar;
 			sourceTree = "<group>";
@@ -85,6 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				5AE547B51EA0CC410033F1D4 /* Main.storyboard */,
+				5A67B7B81EA7629200B89027 /* ProductTableViewCell.swift */,
+				5A35CAD31EB09BBB00FA3E8A /* CartTableViewCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -102,6 +120,12 @@
 		5AE547C71EA0CCB40033F1D4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5AE547D31EA0EFAB0033F1D4 /* ProductsViewController.swift */,
+				5AE547D51EA0F03F0033F1D4 /* CartViewController.swift */,
+				5AE547D71EA0F0870033F1D4 /* OrderHistoryViewController.swift */,
+				5AE547D91EA0F10D0033F1D4 /* AboutViewController.swift */,
+				5A2137E21EA9FEF7003D75B0 /* ProductDetailViewController.swift */,
+				5A31E9CE1EB1D9B4008CA947 /* CartDetailViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -173,9 +197,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AE547D21EA0D0270033F1D4 /* ProductList.plist in Resources */,
 				5AE547BC1EA0CC410033F1D4 /* LaunchScreen.storyboard in Resources */,
 				5AE547B91EA0CC410033F1D4 /* Assets.xcassets in Resources */,
+				5AE547DE1EA0FEAF0033F1D4 /* ProductsList.plist in Resources */,
 				5AE547B71EA0CC410033F1D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,7 +213,15 @@
 			files = (
 				5AE547B21EA0CC410033F1D4 /* AppDelegate.swift in Sources */,
 				5AE547CC1EA0CD2C0033F1D4 /* Cart.swift in Sources */,
+				5A67B7B91EA7629200B89027 /* ProductTableViewCell.swift in Sources */,
+				5AE547D81EA0F0870033F1D4 /* OrderHistoryViewController.swift in Sources */,
 				5AE547CE1EA0CD430033F1D4 /* Order.swift in Sources */,
+				5A31E9CF1EB1D9B4008CA947 /* CartDetailViewController.swift in Sources */,
+				5A35CAD41EB09BBB00FA3E8A /* CartTableViewCell.swift in Sources */,
+				5AE547D41EA0EFAB0033F1D4 /* ProductsViewController.swift in Sources */,
+				5AE547D61EA0F03F0033F1D4 /* CartViewController.swift in Sources */,
+				5A2137E31EA9FEF7003D75B0 /* ProductDetailViewController.swift in Sources */,
+				5AE547DA1EA0F10D0033F1D4 /* AboutViewController.swift in Sources */,
 				5AE547CA1EA0CD150033F1D4 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +386,7 @@
 				5AE547C21EA0CC410033F1D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
