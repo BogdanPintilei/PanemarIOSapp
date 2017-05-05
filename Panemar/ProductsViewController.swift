@@ -55,6 +55,7 @@ class ProductsViewController: UIViewController, UITableViewDataSource, UITableVi
         productsTableView.separatorColor = .white
         //loads the Data from the plist file into an arrayList
         loadData()
+        print(OrderHistory.orderHistory.count)
     }
 
     override func didReceiveMemoryWarning() {

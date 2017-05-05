@@ -33,7 +33,7 @@ class ProductDetailViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func addToCart(_ sender: Any) {
         /*
-         When i press ok the ptoduct and the quantity entered are added to the list
+         When i press ok the product and the quantity entered are added to the list
          */
         let okAction = UIAlertAction (title: "OK", style: UIAlertActionStyle.default) {
           (action) -> Void in

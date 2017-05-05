@@ -14,15 +14,7 @@ class CartViewController: UIViewController, UITableViewDataSource {
     @IBOutlet weak var cartTotalLabel: UILabel!
     @IBOutlet weak var cartTableViewMask: UIView!
     @IBOutlet weak var continueButton: UIButton!
-//    @IBAction func continueToDetailButton(_ sender: Any) {
-//        performSegue(withIdentifier: "ShowCartDetail", sender: self)
-//    }
-// 
-//    
-    /*
-     the cart list of products
-     */
-    
+
     private func designChanges() {
         self.continueButton.layer.cornerRadius = 18
         cartTableView.backgroundColor = .clear
@@ -58,10 +50,10 @@ class CartViewController: UIViewController, UITableViewDataSource {
         }
         return total
     }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-        
     }
     
     // MARK: - table view methods
@@ -79,8 +71,4 @@ class CartViewController: UIViewController, UITableViewDataSource {
         }
         return cell
     }
-    
-    // MARK: - Navigation
-    
-    
 }
