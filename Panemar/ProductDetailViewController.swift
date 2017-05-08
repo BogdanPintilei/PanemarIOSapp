@@ -71,4 +71,3 @@ class ProductDetailViewController: UIViewController, UITextFieldDelegate {
         return newString.length <= maxLength
     }
 }
-

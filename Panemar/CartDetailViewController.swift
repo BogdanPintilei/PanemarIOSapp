@@ -16,25 +16,39 @@ class CartDetailViewController: UIViewController ,UITextFieldDelegate,MFMailComp
     @IBOutlet weak var surnameTextField: UITextField!
     @IBOutlet weak var adressTextField: UITextField!
     @IBOutlet weak var phoneTextField: UITextField!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var surnameLabel: UILabel!
+    @IBOutlet weak var adressLabel: UILabel!
+    @IBOutlet weak var phoneLabel: UILabel!
+    
     @IBOutlet weak var placeOrderButton: UIButton!
     
     @IBOutlet weak var detailScrollView: UIScrollView!
     
     var wasPlaceOrderButtonTapped = false
+    var keyboardHeight = 200
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewDidLoad()
         OrderHistory.loadData()
         self.title =  "Date Livrare"
-        placeOrderButton.layer.cornerRadius = 17
         self.addPaddingToTextFields()
         self.setKeyboardsDetails()
         self.setTextfieldsDelegates()
         self.disableAutcorrect()
+        self.roundCorners()
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(self.tapOut(gesture:)))
         self.view.addGestureRecognizer(tapGesture)
         if wasPlaceOrderButtonTapped == true {
             showOrderAlertAndCleaCart()
+        }
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: .UIKeyboardWillShow, object: nil)
+    }
+    
+    func keyboardWillShow(notification: NSNotification) {
+        if let keyboardSize = (notification.userInfo?[UIKeyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue {
+            let kH = keyboardSize.height
+            keyboardHeight = Int(kH)
         }
     }
     
@@ -72,7 +86,6 @@ class CartDetailViewController: UIViewController ,UITextFieldDelegate,MFMailComp
             phoneTextField.placeholder = "*"
             ok = 0
         }
-        
         if (ok == 1) {
             return true
         } else {
@@ -184,6 +197,18 @@ class CartDetailViewController: UIViewController ,UITextFieldDelegate,MFMailComp
         }
     }
     
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        if (textField == phoneTextField ) || (textField == adressTextField) {
+            detailScrollView.setContentOffset(CGPoint(x: 0,y: keyboardHeight), animated: true)
+        }
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        if (textField == phoneTextField) || (textField == adressTextField) {
+            detailScrollView.setContentOffset(CGPoint(x: 0 ,y: 0), animated: true)
+        }
+    }
+    
     /*
      if you tap outside the textfield is ike you pressed done
     */
@@ -194,21 +219,22 @@ class CartDetailViewController: UIViewController ,UITextFieldDelegate,MFMailComp
         phoneTextField.resignFirstResponder()
     }
     
-    func textFieldDidBeginEditing(_ textField: UITextField) {
-        if (textField == phoneTextField ) {
-            detailScrollView.setContentOffset(CGPoint(x: 0,y: 100), animated: true)
-        }
+    private func roundCorners() {
+        placeOrderButton.layer.cornerRadius = 17
+        nameTextField.layer.cornerRadius = 7
+        surnameTextField.layer.cornerRadius = 7
+        adressTextField.layer.cornerRadius = 7
+        phoneTextField.layer.cornerRadius = 7
+        nameLabel.layer.masksToBounds = true
+        nameLabel.layer.cornerRadius = 12
+        surnameLabel.layer.masksToBounds = true
+        surnameLabel.layer.cornerRadius = 12
+        adressLabel.layer.masksToBounds = true
+        adressLabel.layer.cornerRadius = 12
+        phoneLabel.layer.masksToBounds = true
+        phoneLabel.layer.cornerRadius = 12
     }
     
-    /*
-     FIX THIS BITCH ASS BUG
-    */
-    func textFieldDidEndEditing(_ textField: UITextField) {
-        if (textField == phoneTextField) {
-            detailScrollView.setContentOffset(CGPoint(x: 0 ,y: 100), animated: true)
-        }
-    }
-
     private func addPaddingToTextFields() {
         nameTextField.layer.sublayerTransform = CATransform3DMakeTranslation(5, 0, 0)
         surnameTextField.layer.sublayerTransform = CATransform3DMakeTranslation(5, 0, 0)
@@ -241,10 +267,5 @@ class CartDetailViewController: UIViewController ,UITextFieldDelegate,MFMailComp
         surnameTextField.delegate = self
         adressTextField.delegate = self
         phoneTextField.delegate = self
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 }

@@ -10,6 +10,7 @@ import UIKit
 
 class OrderHistoryViewController: UIViewController ,UITableViewDataSource {
 
+    @IBOutlet weak var orderHistoryMask: UIView!
     @IBOutlet weak var orderHistoryTableView: UITableView!
     
     /*
@@ -18,6 +19,16 @@ class OrderHistoryViewController: UIViewController ,UITableViewDataSource {
     private func loadData() {
         OrderHistory.loadData()
         orderHistoryTableView.reloadData()
+    }
+    
+    private func maskEmptyTableView() {
+        if OrderHistory.orderHistory.count == 0 {
+            self.orderHistoryTableView.isHidden = true
+            self.orderHistoryMask.isHidden = false
+        } else {
+            self.orderHistoryMask.isHidden = true
+            self.orderHistoryTableView.isHidden = false
+        }
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -29,6 +40,7 @@ class OrderHistoryViewController: UIViewController ,UITableViewDataSource {
         orderHistoryTableView.separatorColor = .white
         self.orderHistoryTableView.tableFooterView = UIView(frame: .zero)
         orderHistoryTableView.reloadData()
+        maskEmptyTableView()
     }
     
     override func didReceiveMemoryWarning() {
@@ -36,7 +48,7 @@ class OrderHistoryViewController: UIViewController ,UITableViewDataSource {
         // Dispose of any resources that can be recreated.
     }
     
-    //MARK: - table vie methods
+    //MARK: - table view methods
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return OrderHistory.orderHistory.count

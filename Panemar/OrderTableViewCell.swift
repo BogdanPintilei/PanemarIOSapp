@@ -38,6 +38,7 @@ class OrderTableViewCell: UITableViewCell {
         self.orderTotalPriceLabel?.text = String("Total : \(String(describing: (order!.Total))) ron")
         self.statusColourChanger()
     }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
