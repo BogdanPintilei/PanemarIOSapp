@@ -19,7 +19,7 @@ class CartViewController: UIViewController, UITableViewDataSource {
         self.continueButton.layer.cornerRadius = 18
         cartTableView.backgroundColor = .clear
         cartTableView.separatorColor = .white
-        self.cartTableView.tableFooterView = UIView(frame: .zero)
+        //self.cartTableView.tableFooterView = UIView(frame: .zero)
     }
     
     private func maskEmptyTableView() {

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="v86-vw-7xU">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="v86-vw-7xU">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -34,7 +34,7 @@
                                         <rect key="frame" x="0.0" y="28" width="320" height="95"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yPy-mn-OqN" id="HjB-N7-kJQ">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="95"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="94.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="oz2-xk-hij">
@@ -259,7 +259,7 @@
                                         <rect key="frame" x="0.0" y="28" width="320" height="95"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RF2-D4-XDV" id="vOa-MO-DkN">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="95"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="94.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order #" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yY7-ug-83Q">
@@ -441,7 +441,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="nhc-fR-GVl">
-                                                <rect key="frame" x="33" y="1197" width="186" height="246"/>
+                                                <rect key="frame" x="33" y="1132" width="186" height="246"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Y9A-xw-kWz">
                                                         <rect key="frame" x="0.0" y="0.0" width="186" height="44"/>
@@ -594,7 +594,7 @@
                                             <constraint firstAttribute="trailing" secondItem="D9f-hy-ntW" secondAttribute="trailing" id="7KA-wy-EHf"/>
                                             <constraint firstItem="LHb-e2-9R0" firstAttribute="top" secondItem="ZKa-Fe-5YC" secondAttribute="top" constant="8" id="86O-iP-jXb"/>
                                             <constraint firstAttribute="height" constant="1587" id="C12-6h-a2p"/>
-                                            <constraint firstItem="nhc-fR-GVl" firstAttribute="top" secondItem="tF8-Jp-v5z" secondAttribute="bottom" constant="55" id="CXH-Tt-sWw"/>
+                                            <constraint firstItem="nhc-fR-GVl" firstAttribute="top" secondItem="tF8-Jp-v5z" secondAttribute="bottom" constant="-10" id="CXH-Tt-sWw"/>
                                             <constraint firstItem="tF8-Jp-v5z" firstAttribute="leading" secondItem="ZKa-Fe-5YC" secondAttribute="leading" id="ESW-Lk-oU8"/>
                                             <constraint firstAttribute="trailing" secondItem="tF8-Jp-v5z" secondAttribute="trailing" id="IPm-TU-F8z"/>
                                             <constraint firstItem="yTP-Cf-lTA" firstAttribute="leading" secondItem="ZKa-Fe-5YC" secondAttribute="leading" id="K0U-jI-vv0"/>
@@ -676,11 +676,11 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationWidth="10" reuseIdentifier="CartProductCell" rowHeight="95" id="TDM-bd-uTb" customClass="CartTableViewCell" customModule="Panemar" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" hidesAccessoryWhenEditing="NO" indentationWidth="10" reuseIdentifier="CartProductCell" rowHeight="95" id="TDM-bd-uTb" customClass="CartTableViewCell" customModule="Panemar" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="320" height="95"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TDM-bd-uTb" id="cNe-oh-mh7">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="95"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="94.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Wxv-GF-bba">

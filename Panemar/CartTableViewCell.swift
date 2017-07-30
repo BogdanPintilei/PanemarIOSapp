@@ -21,7 +21,7 @@ class CartTableViewCell: UITableViewCell {
         self.productImageView.image = cartProduct?.cachedImage
         productNameLabel?.text = cartProduct?.productName
         //convert the value of the cartProduct.ProductPrice to string
-        productPriceLabel?.text = String("\(String(format: "%.1f",(cartProduct?.productPrice)!)) ron")
+        productPriceLabel?.text = String("\(String(format: "%.1f",(cartProduct?.productPrice)! + 1)) ron")
         //convert the value of the cartProduct.Quantity to string
         productQuantityLabel?.text = String("x\(String(describing: (cartProduct?.quantity)!))")
     }
