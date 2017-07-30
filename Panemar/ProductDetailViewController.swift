@@ -17,6 +17,7 @@ class ProductDetailViewController: UIViewController, UITextFieldDelegate {
     var product:Product?
     var quantityOfOrder:String?
     var quantityTextField: UITextField?
+    var par = 1
     
     override func viewDidLoad() {
         productDetailImageView.image = product?.cachedImage
@@ -35,31 +36,34 @@ class ProductDetailViewController: UIViewController, UITextFieldDelegate {
         /*
          When i press ok the product and the quantity entered are added to the list
          */
-        let okAction = UIAlertAction (title: "OK", style: UIAlertActionStyle.default) {
-          (action) -> Void in
-            self.quantityOfOrder = self.quantityTextField?.text
-            let ok = Int((self.quantityOfOrder)!)
-            if ok != nil {
-                let quantity_integer: Int? = Int((self.quantityOfOrder)!)!
-                if quantity_integer != 0 {
-                Cart.addToCart(product: self.product!, quantityOfProduct: quantity_integer!)
+        if par % 2 == 0 {
+            let okAction = UIAlertAction (title: "OK", style: UIAlertActionStyle.default) {
+              (action) -> Void in
+                self.quantityOfOrder = self.quantityTextField?.text
+                let ok = Int((self.quantityOfOrder)!)
+                if ok != nil {
+                    let quantity_integer: Int? = Int((self.quantityOfOrder)!)!
+                    if quantity_integer != 0 {
+                    Cart.addToCart(product: self.product!, quantityOfProduct: quantity_integer!)
+                    }
                 }
             }
+            
+            let cancelAction = UIAlertAction (title: "Cancel",style: UIAlertActionStyle.default,handler: nil)
+            
+            let alertController = UIAlertController(title: product?.productName, message: "Introduceți cantitatea pe care dorită :", preferredStyle: UIAlertControllerStyle.alert)
+            alertController.addTextField {
+                (quantityInputTextField)-> Void in
+                self.quantityTextField = quantityInputTextField
+                self.quantityTextField?.placeholder = "Cantitate"
+                self.quantityTextField?.keyboardType = .numberPad
+                self.quantityTextField?.delegate = self
+            }
+            alertController.addAction(okAction)
+            alertController.addAction(cancelAction)
+            self.present(alertController, animated: true, completion: nil)
         }
-        
-        let cancelAction = UIAlertAction (title: "Cancel",style: UIAlertActionStyle.default,handler: nil)
-        
-        let alertController = UIAlertController(title: product?.productName, message: "Introduceți cantitatea pe care dorită :", preferredStyle: UIAlertControllerStyle.alert)
-        alertController.addTextField {
-            (quantityInputTextField)-> Void in
-            self.quantityTextField = quantityInputTextField
-            self.quantityTextField?.placeholder = "Cantitate"
-            self.quantityTextField?.keyboardType = .numberPad
-            self.quantityTextField?.delegate = self
-        }
-        alertController.addAction(okAction)
-        alertController.addAction(cancelAction)
-        self.present(alertController, animated: true, completion: nil)
+        par += 1
     }
     
     //MARK : - Text Field Methods 

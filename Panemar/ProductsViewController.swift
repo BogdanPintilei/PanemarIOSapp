@@ -80,7 +80,8 @@ class ProductsViewController: UIViewController, UITableViewDataSource, UITableVi
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        selectedProduct = products[indexPath.row]
+        selectedProduct = products[indexPath.row + 1]
+        performSegue(withIdentifier: "ShowDetails", sender: self)
         performSegue(withIdentifier: "ShowDetails", sender: self)
     }
     
