@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Pâine Albă</string>
+		<key>info</key>
+		<string>Clasica pâine românească fabricată cu maia, care îi conferă gustul unic, inconfundabil.</string>
+		<key>ingredients</key>
+		<string>Ingrediente: făină albă de grâu 550, apă, sare iodată, drojdie</string>
+		<key>price</key>
+		<integer>3</integer>
+		<key>product_URL</key>
+		<string>https://panemar.ro/images-html/produse/painea-alba-panemar.jpg</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>1</integer>
+		<key>name</key>
+		<string>Franzelă Albă</string>
+		<key>info</key>
+		<string>Din cea mai bună făină albă şi un strop de suflet, am creat un deliciu simplu.</string>
+		<key>ingredients</key>
+		<string>Ingrediente: făină albă de grâu 550, făină albă de grâu 480, apă, sare iodată, drojdie   </string>
+		<key>price</key>
+		<real>3.5</real>
+		<key>product_URL</key>
+		<string>https://panemar.ro/images-html/produse/franzela-alba-panemar.jpg</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>2</integer>
+		<key>name</key>
+		<string>Pâine integrală</string>
+		<key>info</key>
+		<string>Am măcinat tot grâul şi l-am transformat în pâine ca să-i arătăm întreaga nobleţe.</string>
+		<key>ingredients</key>
+		<string>Ingrediente: făină integrală de grâu, făină de secară pentru decor, apă, sare iodată, drojdie </string>
+		<key>price</key>
+		<integer>3</integer>
+		<key>product_URL</key>
+		<string>https://panemar.ro/images-html/produse/paine-integrala-panemar.jpg</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>3</integer>
+		<key>name</key>
+		<string>Pâine Secară</string>
+		<key>info</key>
+		<string>Realizată de maeştrii noştri brutari, pâinea de secară este preparată numai din făină de secară, drojdie, maia şi seminţe de floarea soarelui pentru un gust cu totul aparte.</string>
+		<key>ingredients</key>
+		<string>Ingrediente: făină de secară, apă, semințe de floarea soarelui, maia, drojdie, sare iodată </string>
+		<key>price</key>
+		<integer>3</integer>
+		<key>product_URL</key>
+		<string>https://panemar.ro/images-html/produse/painea-de-secara-panemar.jpg</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>4</integer>
+		<key>name</key>
+		<string>Baghetă albă</string>
+		<key>info</key>
+		<string>Modelate cu dragoste, din cea mai fină făină şi coapte cu mare grijă, baghetele păstrează aroma irezistibilă a pâinii franțuzești.</string>
+		<key>ingredients</key>
+		<string>Ingrediente: făină albă de grâu 550, apă, drojdie, sare iodată, maia </string>
+		<key>price</key>
+		<integer>4</integer>
+		<key>product_URL</key>
+		<string>https://panemar.ro/images-html/produse/bagheta-panemar.jpg</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>5</integer>
+		<key>name</key>
+		<string>Pâine Măsline</string>
+		<key>info</key>
+		<string>Dintr-un aluat special, care se maturează până la 72 de ore, a ieșit o pâine cu iz mediteranean, presărată cu măsline negre și verzi.</string>
+		<key>ingredients</key>
+		<string>făină albă de grâu 550, măsline negre și verzi, condiment pentru pizza, apă, sare iodată, drojdie, maia </string>
+		<key>price</key>
+		<real>8.5</real>
+		<key>product_URL</key>
+		<string>https://panemar.ro/images-html/produse/paine-cu-masline-panemar.jpg</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>6</integer>
+		<key>name</key>
+		<string>Covrigi Bavarezi</string>
+		<key>info</key>
+		<string>O specialitate adusă din Bavaria, asortată cu mac, susan sau sare, după preferințe.</string>
+		<key>ingredients</key>
+		<string></string>
+		<key>price</key>
+		<real>1.5</real>
+		<key>product_URL</key>
+		<string>https://panemar.ro/images-html/produse/covrigi-bavarezi-panemar.jpg</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>7</integer>
+		<key>name</key>
+		<string>Pateu cu Brânză</string>
+		<key>info</key>
+		<string>Foietajul crocant şi umplutura de brânză burduf, fac din pateul cu brânză un produs care &quot;crează dependenţă&quot;.</string>
+		<key>ingredients</key>
+		<string></string>
+		<key>price</key>
+		<real>2.8</real>
+		<key>product_URL</key>
+		<string>https://panemar.ro/images-html/produse/pateu-cu-branza-panemar.jpg</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>8</integer>
+		<key>name</key>
+		<string>Ștrudel cu Varză</string>
+		<key>info</key>
+		<string>Varza bine condimentată completează gustul foietajului consistent. Seamănă cu rețeta de plăcintă cu varză a bunicii.</string>
+		<key>ingredients</key>
+		<string></string>
+		<key>price</key>
+		<real>2.5</real>
+		<key>product_URL</key>
+		<string>https://panemar.ro/images-html/produse/strudel-cu-varza-panemar.jpg</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>9</integer>
+		<key>name</key>
+		<string>Cuib cu Scortișoară</string>
+		<key>info</key>
+		<string>Un deliciu simplu creat cu pasiune din aluat pufos, cu aromă exotica de scorțișoară.</string>
+		<key>ingredients</key>
+		<string></string>
+		<key>price</key>
+		<real>3.5</real>
+		<key>product_URL</key>
+		<string>https://panemar.ro/images-html/produse/cuib-cu-scortisoara-panemar.jpg</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>10</integer>
+		<key>name</key>
+		<string>Covrig polonez</string>
+		<key>info</key>
+		<string>Clasica pâine românească fabricată cu maia, care îi conferă gustul unic, inconfundabil.</string>
+		<key>ingredients</key>
+		<string>O ploaie de nucă revărsată peste un aluat însiropat, făcut după o reţetă originală.</string>
+		<key>price</key>
+		<real>3.2</real>
+		<key>product_URL</key>
+		<string>https://panemar.ro/images-html/produse/covrig-polonez-panemar.jpg</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>11</integer>
+		<key>name</key>
+		<string>Cheesecake</string>
+		<key>info</key>
+		<string>Un desert rafinat, o combinaţie modernă care-ţi încântă simţurile prin aluatul fraged umplut cu o cremă fină de brânză şi acoperit cu un voal de zahăr pudră.</string>
+		<key>ingredients</key>
+		<string></string>
+		<key>price</key>
+		<integer>6</integer>
+		<key>product_URL</key>
+		<string>https://panemar.ro/images-html/produse/cheesecake-panemar.jpg</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>12</integer>
+		<key>name</key>
+		<string>Tartă cu zmeură</string>
+		<key>info</key>
+		<string>Prajitură fină și elegantă, acoperită cu un strat de fructe apetisante.</string>
+		<key>ingredients</key>
+		<string></string>
+		<key>price</key>
+		<real>6.5</real>
+		<key>product_URL</key>
+		<string>https://panemar.ro/images-html/produse/tarta-cu-zmeura-panemar.jpg</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>13</integer>
+		<key>name</key>
+		<string>Tartă cu caise</string>
+		<key>info</key>
+		<string>Blat delicat, cremă pufoasă de vanilie și un strat de caise aurii pentru momente de răsfăț.</string>
+		<key>ingredients</key>
+		<string></string>
+		<key>price</key>
+		<real>6.5</real>
+		<key>product_URL</key>
+		<string>https://panemar.ro/images-html/produse/tarta-cu-caise-panemar.jpg</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>14</integer>
+		<key>name</key>
+		<string>Prăjitură cu mere</string>
+		<key>info</key>
+		<string>Preparată din ingrediente naturale, consistentă și delicioasă.</string>
+		<key>ingredients</key>
+		<string></string>
+		<key>price</key>
+		<integer>5</integer>
+		<key>product_URL</key>
+		<string>https://panemar.ro/images-html/produse/prajitura-cu-mere-panemar.jpg</string>
+	</dict>
+</array>
+</plist>
