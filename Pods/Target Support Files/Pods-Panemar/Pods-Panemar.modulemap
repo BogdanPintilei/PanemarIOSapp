@@ -1,0 +1,6 @@
+framework module Pods_Panemar {
+  umbrella header "Pods-Panemar-umbrella.h"
+
+  export *
+  module * { export * }
+}

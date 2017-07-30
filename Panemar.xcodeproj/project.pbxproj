@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A2137E31EA9FEF7003D75B0 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2137E21EA9FEF7003D75B0 /* ProductDetailViewController.swift */; };
+		5A31E9CF1EB1D9B4008CA947 /* CartDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A31E9CE1EB1D9B4008CA947 /* CartDetailViewController.swift */; };
+		5A35CAD41EB09BBB00FA3E8A /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A35CAD31EB09BBB00FA3E8A /* CartTableViewCell.swift */; };
+		5A67B7B91EA7629200B89027 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A67B7B81EA7629200B89027 /* ProductTableViewCell.swift */; };
+		5AD830101EB8A4AE00183220 /* OrderHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD8300F1EB8A4AE00183220 /* OrderHistory.swift */; };
+		5AD830141EB8AD7F00183220 /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD830131EB8AD7F00183220 /* OrderTableViewCell.swift */; };
 		5AE547B21EA0CC410033F1D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE547B11EA0CC410033F1D4 /* AppDelegate.swift */; };
 		5AE547B71EA0CC410033F1D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE547B51EA0CC410033F1D4 /* Main.storyboard */; };
 		5AE547B91EA0CC410033F1D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE547B81EA0CC410033F1D4 /* Assets.xcassets */; };
@@ -14,10 +20,23 @@
 		5AE547CA1EA0CD150033F1D4 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE547C91EA0CD150033F1D4 /* Product.swift */; };
 		5AE547CC1EA0CD2C0033F1D4 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE547CB1EA0CD2C0033F1D4 /* Cart.swift */; };
 		5AE547CE1EA0CD430033F1D4 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE547CD1EA0CD430033F1D4 /* Order.swift */; };
-		5AE547D21EA0D0270033F1D4 /* ProductList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AE547D11EA0D0270033F1D4 /* ProductList.plist */; };
+		5AE547D41EA0EFAB0033F1D4 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE547D31EA0EFAB0033F1D4 /* ProductsViewController.swift */; };
+		5AE547D61EA0F03F0033F1D4 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE547D51EA0F03F0033F1D4 /* CartViewController.swift */; };
+		5AE547D81EA0F0870033F1D4 /* OrderHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE547D71EA0F0870033F1D4 /* OrderHistoryViewController.swift */; };
+		5AE547DA1EA0F10D0033F1D4 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE547D91EA0F10D0033F1D4 /* AboutViewController.swift */; };
+		5AE547DE1EA0FEAF0033F1D4 /* ProductsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AE547DD1EA0FEAF0033F1D4 /* ProductsList.plist */; };
+		5AFF483C1EBF287500A52FD2 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFF483B1EBF287500A52FD2 /* TabBarVC.swift */; };
+		97663650AAF27988EE6385E8 /* Pods_Panemar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF63E56AD9EDE749FD0BE14 /* Pods_Panemar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DF63E56AD9EDE749FD0BE14 /* Pods_Panemar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Panemar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2137E21EA9FEF7003D75B0 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		5A31E9CE1EB1D9B4008CA947 /* CartDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartDetailViewController.swift; sourceTree = "<group>"; };
+		5A35CAD31EB09BBB00FA3E8A /* CartTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		5A67B7B81EA7629200B89027 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		5AD8300F1EB8A4AE00183220 /* OrderHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderHistory.swift; sourceTree = "<group>"; };
+		5AD830131EB8AD7F00183220 /* OrderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
 		5AE547AE1EA0CC410033F1D4 /* Panemar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Panemar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE547B11EA0CC410033F1D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AE547B61EA0CC410033F1D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -27,7 +46,14 @@
 		5AE547C91EA0CD150033F1D4 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		5AE547CB1EA0CD2C0033F1D4 /* Cart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
 		5AE547CD1EA0CD430033F1D4 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
-		5AE547D11EA0D0270033F1D4 /* ProductList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ProductList.plist; sourceTree = "<group>"; };
+		5AE547D31EA0EFAB0033F1D4 /* ProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		5AE547D51EA0F03F0033F1D4 /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		5AE547D71EA0F0870033F1D4 /* OrderHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderHistoryViewController.swift; sourceTree = "<group>"; };
+		5AE547D91EA0F10D0033F1D4 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		5AE547DD1EA0FEAF0033F1D4 /* ProductsList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ProductsList.plist; sourceTree = "<group>"; };
+		5AFF483B1EBF287500A52FD2 /* TabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		7CA0B97AD0F30F132ADEDA0D /* Pods-Panemar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Panemar.release.xcconfig"; path = "Pods/Target Support Files/Pods-Panemar/Pods-Panemar.release.xcconfig"; sourceTree = "<group>"; };
+		F1D776D3DD120A1052AE44B3 /* Pods-Panemar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Panemar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Panemar/Pods-Panemar.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97663650AAF27988EE6385E8 /* Pods_Panemar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +73,8 @@
 			children = (
 				5AE547B01EA0CC410033F1D4 /* Panemar */,
 				5AE547AF1EA0CC410033F1D4 /* Products */,
+				C8C80E83C563BE6EB0AB9447 /* Pods */,
+				C1B9AFD9724E1E7B09C12EAB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,7 +94,7 @@
 				5AE547C71EA0CCB40033F1D4 /* Controller */,
 				5AE547C81EA0CCC10033F1D4 /* Helpers */,
 				5AE547C31EA0CC690033F1D4 /* Supporting Files */,
-				5AE547D11EA0D0270033F1D4 /* ProductList.plist */,
+				5AE547DD1EA0FEAF0033F1D4 /* ProductsList.plist */,
 			);
 			path = Panemar;
 			sourceTree = "<group>";
@@ -85,6 +114,9 @@
 			isa = PBXGroup;
 			children = (
 				5AE547B51EA0CC410033F1D4 /* Main.storyboard */,
+				5A67B7B81EA7629200B89027 /* ProductTableViewCell.swift */,
+				5A35CAD31EB09BBB00FA3E8A /* CartTableViewCell.swift */,
+				5AD830131EB8AD7F00183220 /* OrderTableViewCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -95,6 +127,7 @@
 				5AE547C91EA0CD150033F1D4 /* Product.swift */,
 				5AE547CB1EA0CD2C0033F1D4 /* Cart.swift */,
 				5AE547CD1EA0CD430033F1D4 /* Order.swift */,
+				5AD8300F1EB8A4AE00183220 /* OrderHistory.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -102,6 +135,12 @@
 		5AE547C71EA0CCB40033F1D4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5AE547D31EA0EFAB0033F1D4 /* ProductsViewController.swift */,
+				5AE547D51EA0F03F0033F1D4 /* CartViewController.swift */,
+				5AE547D71EA0F0870033F1D4 /* OrderHistoryViewController.swift */,
+				5AE547D91EA0F10D0033F1D4 /* AboutViewController.swift */,
+				5A2137E21EA9FEF7003D75B0 /* ProductDetailViewController.swift */,
+				5A31E9CE1EB1D9B4008CA947 /* CartDetailViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -109,8 +148,26 @@
 		5AE547C81EA0CCC10033F1D4 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				5AFF483B1EBF287500A52FD2 /* TabBarVC.swift */,
 			);
 			name = Helpers;
+			sourceTree = "<group>";
+		};
+		C1B9AFD9724E1E7B09C12EAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DF63E56AD9EDE749FD0BE14 /* Pods_Panemar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8C80E83C563BE6EB0AB9447 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1D776D3DD120A1052AE44B3 /* Pods-Panemar.debug.xcconfig */,
+				7CA0B97AD0F30F132ADEDA0D /* Pods-Panemar.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AE547C01EA0CC410033F1D4 /* Build configuration list for PBXNativeTarget "Panemar" */;
 			buildPhases = (
+				E5601A7C8C09E653E9E76A96 /* [CP] Check Pods Manifest.lock */,
 				5AE547AA1EA0CC410033F1D4 /* Sources */,
 				5AE547AB1EA0CC410033F1D4 /* Frameworks */,
 				5AE547AC1EA0CC410033F1D4 /* Resources */,
+				DA94EF69DC6DF6815B7EE3E2 /* [CP] Embed Pods Frameworks */,
+				5898F9050B3D2B4C4C7ABDE4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,14 +233,62 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AE547D21EA0D0270033F1D4 /* ProductList.plist in Resources */,
 				5AE547BC1EA0CC410033F1D4 /* LaunchScreen.storyboard in Resources */,
 				5AE547B91EA0CC410033F1D4 /* Assets.xcassets in Resources */,
+				5AE547DE1EA0FEAF0033F1D4 /* ProductsList.plist in Resources */,
 				5AE547B71EA0CC410033F1D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5898F9050B3D2B4C4C7ABDE4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Panemar/Pods-Panemar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA94EF69DC6DF6815B7EE3E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Panemar/Pods-Panemar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5601A7C8C09E653E9E76A96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5AE547AA1EA0CC410033F1D4 /* Sources */ = {
@@ -188,8 +296,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AE547B21EA0CC410033F1D4 /* AppDelegate.swift in Sources */,
+				5AD830101EB8A4AE00183220 /* OrderHistory.swift in Sources */,
 				5AE547CC1EA0CD2C0033F1D4 /* Cart.swift in Sources */,
+				5A67B7B91EA7629200B89027 /* ProductTableViewCell.swift in Sources */,
+				5AE547D81EA0F0870033F1D4 /* OrderHistoryViewController.swift in Sources */,
 				5AE547CE1EA0CD430033F1D4 /* Order.swift in Sources */,
+				5A31E9CF1EB1D9B4008CA947 /* CartDetailViewController.swift in Sources */,
+				5AFF483C1EBF287500A52FD2 /* TabBarVC.swift in Sources */,
+				5A35CAD41EB09BBB00FA3E8A /* CartTableViewCell.swift in Sources */,
+				5AE547D41EA0EFAB0033F1D4 /* ProductsViewController.swift in Sources */,
+				5AE547D61EA0F03F0033F1D4 /* CartViewController.swift in Sources */,
+				5AD830141EB8AD7F00183220 /* OrderTableViewCell.swift in Sources */,
+				5A2137E31EA9FEF7003D75B0 /* ProductDetailViewController.swift in Sources */,
+				5AE547DA1EA0F10D0033F1D4 /* AboutViewController.swift in Sources */,
 				5AE547CA1EA0CD150033F1D4 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +430,7 @@
 		};
 		5AE547C11EA0CC410033F1D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1D776D3DD120A1052AE44B3 /* Pods-Panemar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H3763SJ8DW;
@@ -324,6 +444,7 @@
 		};
 		5AE547C21EA0CC410033F1D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CA0B97AD0F30F132ADEDA0D /* Pods-Panemar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H3763SJ8DW;
@@ -354,6 +475,7 @@
 				5AE547C21EA0CC410033F1D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
