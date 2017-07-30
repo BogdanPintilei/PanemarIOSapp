@@ -199,7 +199,7 @@ class CartDetailViewController: UIViewController ,UITextFieldDelegate,MFMailComp
     
     func textFieldDidBeginEditing(_ textField: UITextField) {
         if (textField == phoneTextField ) || (textField == adressTextField) {
-            detailScrollView.setContentOffset(CGPoint(x: 0,y: keyboardHeight), animated: true)
+            detailScrollView.setContentOffset(CGPoint(x: 0,y: 0), animated: true)
         }
     }
     
@@ -228,7 +228,7 @@ class CartDetailViewController: UIViewController ,UITextFieldDelegate,MFMailComp
         nameLabel.layer.masksToBounds = true
         nameLabel.layer.cornerRadius = 12
         surnameLabel.layer.masksToBounds = true
-        surnameLabel.layer.cornerRadius = 12
+        surnameLabel.layer.cornerRadius = 0
         adressLabel.layer.masksToBounds = true
         adressLabel.layer.cornerRadius = 12
         phoneLabel.layer.masksToBounds = true
