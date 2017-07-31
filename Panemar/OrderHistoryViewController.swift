@@ -12,12 +12,13 @@ class OrderHistoryViewController: UIViewController ,UITableViewDataSource {
 
     @IBOutlet weak var orderHistoryMask: UIView!
     @IBOutlet weak var orderHistoryTableView: UITableView!
-    
+    var list = [Order]()
     /*
     function for loading data from the plist file into array list
      */
     private func loadData() {
         OrderHistory.loadData()
+        list = OrderHistory.orderHistory.shuffled()
         orderHistoryTableView.reloadData()
     }
     
@@ -41,6 +42,7 @@ class OrderHistoryViewController: UIViewController ,UITableViewDataSource {
         self.orderHistoryTableView.tableFooterView = UIView(frame: .zero)
         orderHistoryTableView.reloadData()
         maskEmptyTableView()
+        loadData()
     }
     
     override func didReceiveMemoryWarning() {
@@ -57,10 +59,26 @@ class OrderHistoryViewController: UIViewController ,UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "OrderCell", for: indexPath)
         //Configure the cell
-        let ord: Order = OrderHistory.orderHistory[indexPath.row]
+        let ord: Order = list[indexPath.row]
         if let orderCell =  cell as? OrderTableViewCell {
             orderCell.order = ord
         }
         return cell 
     }
+}
+
+extension Array {
+    
+    func shuffled() -> [Element] {
+        var results = [Element]()
+        var indexes = (0 ..< count).map { $0 }
+        while indexes.count > 0 {
+            let indexOfIndexes = Int(arc4random_uniform(UInt32(indexes.count)))
+            let index = indexes[indexOfIndexes]
+            results.append(self[index])
+            indexes.remove(at: indexOfIndexes)
+        }
+        return results
+    }
+    
 }
