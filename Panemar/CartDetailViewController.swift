@@ -106,7 +106,7 @@ class CartDetailViewController: UIViewController ,UITextFieldDelegate,MFMailComp
         clientDetail.append("   Adresă : \(String(describing: self.adressTextField.text!))\n")
         clientDetail.append("   Contact: \(String(describing: self.phoneTextField.text!))")
         let orderText = "Comanda dumneavoastră : \n\n  \(productsInCart)\n in valoare de : \(total) ron \n\nVa fi livrată către \n\n \(clientDetail))"
-        mailComposerVC.setToRecipients(["bpintilei@gmail.com"])
+        mailComposerVC.setToRecipients(["WolfpackDigitalTesting@gmail.com"])
         mailComposerVC.setSubject("Comandă Panemar #\(self.generateId())")
         mailComposerVC.setMessageBody(orderText, isHTML: false)
         

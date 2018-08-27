@@ -65,7 +65,7 @@ class AboutViewController: UIViewController {
     }
     
     @IBAction func callButtonTapped(_ sender: Any) {
-        let url: NSURL = NSURL(string: "tel://0756631163")!
+        let url: NSURL = NSURL(string: "tel://0742213412")!
         UIApplication.shared.open(url as URL)
     }
     
